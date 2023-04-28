@@ -8,6 +8,7 @@ function cifraMensagem(mensagem, movimentos) {
         return String.fromCharCode(codigoCaractere + movimentos)
     })
 
+
     return mensagemCifrada.join('')
 }
 
